@@ -18,10 +18,12 @@ void Personnage::afficherInfos()
 
 std::string Personnage::demanderNom()
 {
+    system("cls");
     std::string nomEntre;
     printw("Entrez le nom du joueur: \n");
     refresh();
     std::getline(std::cin, nomEntre);
+    system("cls");
 
     return nomEntre;
 }

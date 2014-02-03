@@ -40,7 +40,7 @@ void afficherInfos()
     printw("Appuyer sur ");
     attron(A_BOLD);
     attron(A_UNDERLINE);
-    printw("Entrée");
+    printw("Entree");
     attroff(A_BOLD);
     attroff(A_UNDERLINE);
     printw(" pour quitter\n");

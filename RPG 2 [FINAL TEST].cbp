@@ -30,11 +30,10 @@
 		</Build>
 		<Compiler>
 			<Add option="-Wall" />
-			<Add directory="pdc28_ming_w32" />
+			<Add directory="pdc34dllw" />
 		</Compiler>
 		<Linker>
-			<Add library="pdc28_ming_w32\panel.a" />
-			<Add library="pdc28_ming_w32\pdcurses.a" />
+			<Add library="pdc34dllw\pdcurses.lib" />
 		</Linker>
 		<Unit filename="Arme.cpp" />
 		<Unit filename="Arme.h" />
@@ -46,6 +45,8 @@
 		<Unit filename="GuerrierLeger.h" />
 		<Unit filename="GuerrierLourd.cpp" />
 		<Unit filename="GuerrierLourd.h" />
+		<Unit filename="Jeu.cpp" />
+		<Unit filename="Jeu.h" />
 		<Unit filename="Magicien.cpp" />
 		<Unit filename="Magicien.h" />
 		<Unit filename="Objet.cpp" />
