@@ -1,0 +1,547 @@
+# depslib dependency file v1.0
+1391301692 source:p:\mes documents\codeblocks\programmation\rpg 2 [final test]\main.cpp
+	"main.h"
+
+1143660866 
+
+1390589254 source:p:\mes documents\codeblocks\programmation\rpg 2 [final test]\objet.cpp
+	"Objet.h"
+
+1391436247 p:\mes documents\codeblocks\programmation\rpg 2 [final test]\objet.h
+	<cstdlib>
+	<ctime>
+	<curses.h>
+
+1391182196 source:p:\mes documents\codeblocks\programmation\rpg 2 [final test]\epee.cpp
+	"Epee.h"
+
+1391181930 source:p:\mes documents\codeblocks\programmation\rpg 2 [final test]\arme.cpp
+	"Arme.h"
+
+1391181446 p:\mes documents\codeblocks\programmation\rpg 2 [final test]\arme.h
+	"Objet.h"
+	<string>
+
+1391299878 p:\mes documents\codeblocks\programmation\rpg 2 [final test]\epee.h
+	"Arme.h"
+
+1391304558 source:p:\mes documents\codeblocks\programmation\rpg 2 [final test]\personnage.cpp
+	"Personnage.h"
+
+1390832688 e.h"
+
+1391436337 p:\mes documents\codeblocks\programmation\rpg 2 [final test]\personnage.h
+	<iostream>
+	<string>
+	<cstdlib>
+	<ctime>
+	<curses.h>
+	"Arme.h"
+
+1391436247 p:\mes documents\codeblocks\programmation\rpg 2 [final test]\main.h
+	<iostream>
+	<cstdlib>
+	<ctime>
+	<curses.h>
+
+1389873952 source:p:\mes documents\codeblocks\programmation\rpg 2 [final test]\guerrier.cpp
+	"Guerrier.h"
+
+1390589060 h"
+
+1389874394 p:\mes documents\codeblocks\programmation\rpg 2 [final test]\guerrier.h
+	"Personnage.h"
+	"Epee.h"
+
+1390478564 source:p:\mes documents\codeblocks\programmation\rpg 2 [final test]\guerrierlourd.cpp
+	"GuerrierLourd.h"
+
+1390478564 ourd.h"
+
+1391303572 p:\mes documents\codeblocks\programmation\rpg 2 [final test]\guerrierlourd.h
+	"Guerrier.h"
+
+1389959976 source:p:\mes documents\codeblocks\programmation\rpg 2 [final test]\guerrierleger.cpp
+	"GuerrierLeger.h"
+
+1389959976 eger.h"
+
+1391303572 p:\mes documents\codeblocks\programmation\rpg 2 [final test]\guerrierleger.h
+	"Guerrier.h"
+
+1391304558 source:p:\mes documents\codeblocks\programmation\rpg 2 [final test]\magicien.cpp
+	"Magicien.h"
+
+1389973420 p:\mes documents\codeblocks\programmation\rpg 2 [final test]\magicien.h
+	"Personnage.h"
+	"Sort.h"
+
+1390313738 p:\mes documents\codeblocks\programmation\rpg 2 [final test]\sort.h
+	"Arme.h"
+
+1391304558 source:p:\mes documents\codeblocks\programmation\rpg 2 [final test]\sort.cpp
+	"Sort.h"
+
+1143915742 p:\mes documents\codeblocks\pdc28_ming_w32\curses.h
+	<bios.h>
+	<bios.h>
+	<bios.h>
+	<stdlib.h>
+	<sys/video.h>
+	<bios.h>
+	<ctype.h>
+	<windows.h>
+	<os2.h>
+	<stdarg.h>
+	<stdio.h>
+	<curspriv.h>
+
+1143915742 h>
+
+1143660866 p:\mes documents\codeblocks\pdc28_ming_w32\curspriv.h
+	<assert.h>
+	<dos.h>
+
+1389875206 source:/run/media/nico35/CLE NICO #1/RPG C++ CLI/Epee.cpp
+	"Epee.h"
+
+1389875206 /run/media/nico35/CLE NICO #1/RPG C++ CLI/Epee.h
+	"Arme.h"
+
+1390479254 /run/media/nico35/CLE NICO #1/RPG C++ CLI/Arme.h
+	"Objet.h"
+	<curses.h>
+	<string>
+
+1389865788 /run/media/nico35/CLE NICO #1/RPG C++ CLI/Objet.h
+	<cstdlib>
+	<ctime>
+
+1389873952 source:/run/media/nico35/CLE NICO #1/RPG C++ CLI/Guerrier.cpp
+	"Guerrier.h"
+
+1389874394 /run/media/nico35/CLE NICO #1/RPG C++ CLI/Guerrier.h
+	"Personnage.h"
+	"Epee.h"
+
+1389873954 /run/media/nico35/CLE NICO #1/RPG C++ CLI/Personnage.h
+	<iostream>
+	<string>
+	<cstdlib>
+	<ctime>
+
+1389959976 source:/run/media/nico35/CLE NICO #1/RPG C++ CLI/GuerrierLeger.cpp
+	"GuerrierLeger.h"
+
+1389960120 /run/media/nico35/CLE NICO #1/RPG C++ CLI/GuerrierLeger.h
+	"Guerrier.h"
+
+1390589060 source:/run/media/nico35/CLE NICO #1/RPG C++ CLI/Magicien.cpp
+	"Magicien.h"
+
+1389973420 /run/media/nico35/CLE NICO #1/RPG C++ CLI/Magicien.h
+	"Personnage.h"
+	"Sort.h"
+
+1390313738 /run/media/nico35/CLE NICO #1/RPG C++ CLI/Sort.h
+	"Arme.h"
+
+1390589254 source:/run/media/nico35/CLE NICO #1/RPG C++ CLI/Objet.cpp
+	"Objet.h"
+
+1389873954 source:/run/media/nico35/CLE NICO #1/RPG C++ CLI/Personnage.cpp
+	"Personnage.h"
+
+1390228262 source:/run/media/nico35/CLE NICO #1/RPG C++ CLI/Sort.cpp
+	"Sort.h"
+
+1390479128 source:/run/media/nico35/CLE NICO #1/RPG C++ CLI/Arme.cpp
+	"Arme.h"
+
+1390478564 source:/run/media/nico35/CLE NICO #1/RPG C++ CLI/GuerrierLourd.cpp
+	"GuerrierLourd.h"
+
+1389962060 /run/media/nico35/CLE NICO #1/RPG C++ CLI/GuerrierLourd.h
+	"Guerrier.h"
+
+1390478348 source:/run/media/nico35/CLE NICO #1/RPG C++ CLI/Jeu.cpp
+
+1390478268 source:/run/media/nico35/CLE NICO #1/RPG C++ CLI/main.cpp
+	"main.h"
+
+1390589038 /run/media/nico35/CLE NICO #1/RPG C++ CLI/main.h
+	<iostream>
+	<cstdlib>
+	<ctime>
+	<ncurses.h>
+
+1390589038 >
+
+1390479128 source:/run/media/nico/CLE NICO #1/RPG C++ CLI/Arme.cpp
+	"Arme.h"
+
+1390479254 /run/media/nico/CLE NICO #1/RPG C++ CLI/Arme.h
+	"Objet.h"
+	<curses.h>
+	<string>
+
+1389865788 /run/media/nico/CLE NICO #1/RPG C++ CLI/Objet.h
+	<cstdlib>
+	<ctime>
+
+1389875206 source:/run/media/nico/CLE NICO #1/RPG C++ CLI/Epee.cpp
+	"Epee.h"
+
+1389875206 /run/media/nico/CLE NICO #1/RPG C++ CLI/Epee.h
+	"Arme.h"
+
+1389873952 source:/run/media/nico/CLE NICO #1/RPG C++ CLI/Guerrier.cpp
+	"Guerrier.h"
+
+1389874394 /run/media/nico/CLE NICO #1/RPG C++ CLI/Guerrier.h
+	"Personnage.h"
+	"Epee.h"
+
+1389873954 /run/media/nico/CLE NICO #1/RPG C++ CLI/Personnage.h
+	<iostream>
+	<string>
+	<cstdlib>
+	<ctime>
+
+1389959976 source:/run/media/nico/CLE NICO #1/RPG C++ CLI/GuerrierLeger.cpp
+	"GuerrierLeger.h"
+
+1389960120 /run/media/nico/CLE NICO #1/RPG C++ CLI/GuerrierLeger.h
+	"Guerrier.h"
+
+1390478564 source:/run/media/nico/CLE NICO #1/RPG C++ CLI/GuerrierLourd.cpp
+	"GuerrierLourd.h"
+
+1389962060 /run/media/nico/CLE NICO #1/RPG C++ CLI/GuerrierLourd.h
+	"Guerrier.h"
+
+1390478348 source:/run/media/nico/CLE NICO #1/RPG C++ CLI/Jeu.cpp
+
+1390589060 source:/run/media/nico/CLE NICO #1/RPG C++ CLI/Magicien.cpp
+	"Magicien.h"
+
+1389973420 /run/media/nico/CLE NICO #1/RPG C++ CLI/Magicien.h
+	"Personnage.h"
+	"Sort.h"
+
+1390313738 /run/media/nico/CLE NICO #1/RPG C++ CLI/Sort.h
+	"Arme.h"
+
+1390478268 source:/run/media/nico/CLE NICO #1/RPG C++ CLI/main.cpp
+	"main.h"
+
+1390589038 /run/media/nico/CLE NICO #1/RPG C++ CLI/main.h
+	<iostream>
+	<cstdlib>
+	<ctime>
+	<ncurses.h>
+
+1390589254 source:/run/media/nico/CLE NICO #1/RPG C++ CLI/Objet.cpp
+	"Objet.h"
+
+1389873954 source:/run/media/nico/CLE NICO #1/RPG C++ CLI/Personnage.cpp
+	"Personnage.h"
+
+1390228262 source:/run/media/nico/CLE NICO #1/RPG C++ CLI/Sort.cpp
+	"Sort.h"
+
+1390678248 source:q:\rpg c++ cli\arme.cpp
+	"Arme.h"
+
+1390738040 q:\rpg c++ cli\arme.h
+	"Objet.h"
+	<string>
+
+1389865788 q:\rpg c++ cli\objet.h
+	<cstdlib>
+	<ctime>
+
+1143915742 q:\rpg c++ cli\pdc28_ming_w32\curses.h
+	<bios.h>
+	<bios.h>
+	<bios.h>
+	<stdlib.h>
+	<sys/video.h>
+	<bios.h>
+	<ctype.h>
+	<windows.h>
+	<os2.h>
+	<stdarg.h>
+	<stdio.h>
+	<curspriv.h>
+
+1143660866 q:\rpg c++ cli\pdc28_ming_w32\curspriv.h
+	<assert.h>
+	<dos.h>
+
+1389875206 source:q:\rpg c++ cli\epee.cpp
+	"Epee.h"
+
+1389875206 q:\rpg c++ cli\epee.h
+	"Arme.h"
+
+1389873952 source:q:\rpg c++ cli\guerrier.cpp
+	"Guerrier.h"
+
+1389874394 q:\rpg c++ cli\guerrier.h
+	"Personnage.h"
+	"Epee.h"
+
+1389873954 q:\rpg c++ cli\personnage.h
+	<iostream>
+	<string>
+	<cstdlib>
+	<ctime>
+
+1389959976 source:q:\rpg c++ cli\guerrierleger.cpp
+	"GuerrierLeger.h"
+
+1390740406 q:\rpg c++ cli\guerrierleger.h
+	"Guerrier.h"
+
+1390478564 source:q:\rpg c++ cli\guerrierlourd.cpp
+	"GuerrierLourd.h"
+
+1389962060 q:\rpg c++ cli\guerrierlourd.h
+	"Guerrier.h"
+
+1390478348 source:q:\rpg c++ cli\jeu.cpp
+
+1390589060 source:q:\rpg c++ cli\magicien.cpp
+	"Magicien.h"
+
+1389973420 q:\rpg c++ cli\magicien.h
+	"Personnage.h"
+	"Sort.h"
+
+1390313738 q:\rpg c++ cli\sort.h
+	"Arme.h"
+
+1390589254 source:q:\rpg c++ cli\objet.cpp
+	"Objet.h"
+
+1389873954 source:q:\rpg c++ cli\personnage.cpp
+	"Personnage.h"
+
+1390228262 source:q:\rpg c++ cli\sort.cpp
+	"Sort.h"
+
+1390478268 source:q:\rpg c++ cli\main.cpp
+	"main.h"
+
+1390740350 q:\rpg c++ cli\main.h
+	<iostream>
+	<cstdlib>
+	<ctime>
+	<curses.h>
+
+1390678248 source:f:\rpg c++ cli\arme.cpp
+	"Arme.h"
+
+1390738040 f:\rpg c++ cli\arme.h
+	"Objet.h"
+	<string>
+
+1389865788 f:\rpg c++ cli\objet.h
+	<cstdlib>
+	<ctime>
+
+1389875206 source:f:\rpg c++ cli\epee.cpp
+	"Epee.h"
+
+1389875206 f:\rpg c++ cli\epee.h
+	"Arme.h"
+
+1389873952 source:f:\rpg c++ cli\guerrier.cpp
+	"Guerrier.h"
+
+1389874394 f:\rpg c++ cli\guerrier.h
+	"Personnage.h"
+	"Epee.h"
+
+1390832664 f:\rpg c++ cli\personnage.h
+	<iostream>
+	<string>
+	<cstdlib>
+	<ctime>
+	<curses.h>
+
+1389959976 source:f:\rpg c++ cli\guerrierleger.cpp
+	"GuerrierLeger.h"
+
+1390740406 f:\rpg c++ cli\guerrierleger.h
+	"Guerrier.h"
+
+1390478564 source:f:\rpg c++ cli\guerrierlourd.cpp
+	"GuerrierLourd.h"
+
+1389962060 f:\rpg c++ cli\guerrierlourd.h
+	"Guerrier.h"
+
+1390589060 source:f:\rpg c++ cli\magicien.cpp
+	"Magicien.h"
+
+1389973420 f:\rpg c++ cli\magicien.h
+	"Personnage.h"
+	"Sort.h"
+
+1390313738 f:\rpg c++ cli\sort.h
+	"Arme.h"
+
+1390589254 source:f:\rpg c++ cli\objet.cpp
+	"Objet.h"
+
+1390832688 source:f:\rpg c++ cli\personnage.cpp
+	"Personnage.h"
+
+1390228262 source:f:\rpg c++ cli\sort.cpp
+	"Sort.h"
+
+1390833366 source:f:\rpg c++ cli\main.cpp
+	"main.h"
+
+1390740350 f:\rpg c++ cli\main.h
+	<iostream>
+	<cstdlib>
+	<ctime>
+	<curses.h>
+
+1143915742 f:\rpg c++ cli\pdc28_ming_w32\curses.h
+	<bios.h>
+	<bios.h>
+	<bios.h>
+	<stdlib.h>
+	<sys/video.h>
+	<bios.h>
+	<ctype.h>
+	<windows.h>
+	<os2.h>
+	<stdarg.h>
+	<stdio.h>
+	<curspriv.h>
+
+1143660866 f:\rpg c++ cli\pdc28_ming_w32\curspriv.h
+	<assert.h>
+	<dos.h>
+
+1143915742 p:\mes documents\codeblocks\programmation\rpg 2 [final test]\pdc28_ming_w32\curses.h
+	<bios.h>
+	<bios.h>
+	<bios.h>
+	<stdlib.h>
+	<sys/video.h>
+	<bios.h>
+	<ctype.h>
+	<windows.h>
+	<os2.h>
+	<stdarg.h>
+	<stdio.h>
+	<curspriv.h>
+
+1143660866 p:\mes documents\codeblocks\programmation\rpg 2 [final test]\pdc28_ming_w32\curspriv.h
+	<assert.h>
+	<dos.h>
+
+1220911818 p:\mes documents\codeblocks\programmation\rpg 2 [final test]\pdc34dllw\curses.h
+	<stdarg.h>
+	<stddef.h>
+	<stdio.h>
+	<wchar.h>
+
+1390478348 source:p:\mes documents\codeblocks\programmation\rpg 2 [final test]\jeu.cpp
+
+1391181930 source:/home/nico/Programmation/RPG C++ CLI/Arme.cpp
+	"Arme.h"
+
+1391181446 /home/nico/Programmation/RPG C++ CLI/Arme.h
+	"Objet.h"
+	<string>
+
+1391300055 /home/nico/Programmation/RPG C++ CLI/Objet.h
+	<cstdlib>
+	<ctime>
+	<ncurses.h>
+
+1391182196 source:/home/nico/Programmation/RPG C++ CLI/Epee.cpp
+	"Epee.h"
+
+1391299879 /home/nico/Programmation/RPG C++ CLI/Epee.h
+	"Arme.h"
+
+1389873952 source:/home/nico/Programmation/RPG C++ CLI/Guerrier.cpp
+	"Guerrier.h"
+
+1389874394 /home/nico/Programmation/RPG C++ CLI/Guerrier.h
+	"Personnage.h"
+	"Epee.h"
+
+1391301839 /home/nico/Programmation/RPG C++ CLI/Personnage.h
+	<iostream>
+	<string>
+	<cstdlib>
+	<ctime>
+	<ncurses.h>
+
+1389959976 source:/home/nico/Programmation/RPG C++ CLI/GuerrierLeger.cpp
+	"GuerrierLeger.h"
+
+1390740406 /home/nico/Programmation/RPG C++ CLI/GuerrierLeger.h
+	"Guerrier.h"
+
+1390478564 source:/home/nico/Programmation/RPG C++ CLI/GuerrierLourd.cpp
+	"GuerrierLourd.h"
+
+1389962060 /home/nico/Programmation/RPG C++ CLI/GuerrierLourd.h
+	"Guerrier.h"
+
+1390589060 source:/home/nico/Programmation/RPG C++ CLI/Magicien.cpp
+	"Magicien.h"
+
+1389973420 /home/nico/Programmation/RPG C++ CLI/Magicien.h
+	"Personnage.h"
+	"Sort.h"
+
+1390313738 /home/nico/Programmation/RPG C++ CLI/Sort.h
+	"Arme.h"
+
+1391301692 source:/home/nico/Programmation/RPG C++ CLI/main.cpp
+	"main.h"
+
+1391301789 /home/nico/Programmation/RPG C++ CLI/main.h
+	<iostream>
+	<cstdlib>
+	<ctime>
+	<ncurses.h>
+
+1390589254 source:/home/nico/Programmation/RPG C++ CLI/Objet.cpp
+	"Objet.h"
+
+1390832688 source:/home/nico/Programmation/RPG C++ CLI/Personnage.cpp
+	"Personnage.h"
+
+1390228262 source:/home/nico/Programmation/RPG C++ CLI/Sort.cpp
+	"Sort.h"
+
+1143919342 /home/nico/Programmation/RPG C++ CLI/pdc28_ming_w32/curses.h
+	<bios.h>
+	<bios.h>
+	<bios.h>
+	<stdlib.h>
+	<sys/video.h>
+	<bios.h>
+	<ctype.h>
+	<windows.h>
+	<os2.h>
+	<stdarg.h>
+	<stdio.h>
+	<curspriv.h>
+
+1143664466 /home/nico/Programmation/RPG C++ CLI/pdc28_ming_w32/curspriv.h
+	<assert.h>
+	<dos.h>
+

@@ -1,0 +1,11 @@
+Add Icon and a resource.rc
+attaquer(Personnage*) has to be defined in Personnage
+Sort(); has no ascendance
+Objet 	-> Arme		-> Epee
+			->Lance?
+ 
+	-> Bouclier?
+
+Personnage	-> Guerrier	-> Guerrier Lourd
+				-> Guerrier Leger
+		-> Magicien

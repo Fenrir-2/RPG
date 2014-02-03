@@ -1,0 +1,146 @@
+# depslib dependency file v1.0
+1391181930 source:/run/media/nico/16GO/RPG C++ CLI/Arme.cpp
+	"Arme.h"
+
+1391181446 /run/media/nico/16GO/RPG C++ CLI/Arme.h
+	"Objet.h"
+	<string>
+
+1391300055 /run/media/nico/16GO/RPG C++ CLI/Objet.h
+	<cstdlib>
+	<ctime>
+	<ncurses.h>
+
+1391182196 source:/run/media/nico/16GO/RPG C++ CLI/Epee.cpp
+	"Epee.h"
+
+1391299879 /run/media/nico/16GO/RPG C++ CLI/Epee.h
+	"Arme.h"
+
+1389873952 source:/run/media/nico/16GO/RPG C++ CLI/Guerrier.cpp
+	"Guerrier.h"
+
+1389874394 /run/media/nico/16GO/RPG C++ CLI/Guerrier.h
+	"Personnage.h"
+	"Epee.h"
+
+1390832664 /run/media/nico/16GO/RPG C++ CLI/Personnage.h
+	<iostream>
+	<string>
+	<cstdlib>
+	<ctime>
+	<curses.h>
+
+1389959976 source:/run/media/nico/16GO/RPG C++ CLI/GuerrierLeger.cpp
+	"GuerrierLeger.h"
+
+1390740406 /run/media/nico/16GO/RPG C++ CLI/GuerrierLeger.h
+	"Guerrier.h"
+
+1390478564 source:/run/media/nico/16GO/RPG C++ CLI/GuerrierLourd.cpp
+	"GuerrierLourd.h"
+
+1389962060 /run/media/nico/16GO/RPG C++ CLI/GuerrierLourd.h
+	"Guerrier.h"
+
+1390589060 source:/run/media/nico/16GO/RPG C++ CLI/Magicien.cpp
+	"Magicien.h"
+
+1389973420 /run/media/nico/16GO/RPG C++ CLI/Magicien.h
+	"Personnage.h"
+	"Sort.h"
+
+1390313738 /run/media/nico/16GO/RPG C++ CLI/Sort.h
+	"Arme.h"
+
+1391300005 source:/run/media/nico/16GO/RPG C++ CLI/main.cpp
+	"main.h"
+
+1391182732 /run/media/nico/16GO/RPG C++ CLI/main.h
+	<iostream>
+	<cstdlib>
+	<ctime>
+	<curses.h>
+
+1390589254 source:/run/media/nico/16GO/RPG C++ CLI/Objet.cpp
+	"Objet.h"
+
+1390832688 source:/run/media/nico/16GO/RPG C++ CLI/Personnage.cpp
+	"Personnage.h"
+
+1390228262 source:/run/media/nico/16GO/RPG C++ CLI/Sort.cpp
+	"Sort.h"
+
+1391181930 source:/home/nico/Programmation/RPG C++ CLI/Arme.cpp
+	"Arme.h"
+
+1391181446 /home/nico/Programmation/RPG C++ CLI/Arme.h
+	"Objet.h"
+	<string>
+
+1391300055 /home/nico/Programmation/RPG C++ CLI/Objet.h
+	<cstdlib>
+	<ctime>
+	<ncurses.h>
+
+1391182196 source:/home/nico/Programmation/RPG C++ CLI/Epee.cpp
+	"Epee.h"
+
+1391299879 /home/nico/Programmation/RPG C++ CLI/Epee.h
+	"Arme.h"
+
+1389873952 source:/home/nico/Programmation/RPG C++ CLI/Guerrier.cpp
+	"Guerrier.h"
+
+1389874394 /home/nico/Programmation/RPG C++ CLI/Guerrier.h
+	"Personnage.h"
+	"Epee.h"
+
+1391304558 /home/nico/Programmation/RPG C++ CLI/Personnage.h
+	<iostream>
+	<string>
+	<cstdlib>
+	<ctime>
+	<ncurses.h>
+	"Arme.h"
+
+1389959976 source:/home/nico/Programmation/RPG C++ CLI/GuerrierLeger.cpp
+	"GuerrierLeger.h"
+
+1391303573 /home/nico/Programmation/RPG C++ CLI/GuerrierLeger.h
+	"Guerrier.h"
+
+1390478564 source:/home/nico/Programmation/RPG C++ CLI/GuerrierLourd.cpp
+	"GuerrierLourd.h"
+
+1391303573 /home/nico/Programmation/RPG C++ CLI/GuerrierLourd.h
+	"Guerrier.h"
+
+1390589060 source:/home/nico/Programmation/RPG C++ CLI/Magicien.cpp
+	"Magicien.h"
+
+1389973420 /home/nico/Programmation/RPG C++ CLI/Magicien.h
+	"Personnage.h"
+	"Sort.h"
+
+1390313738 /home/nico/Programmation/RPG C++ CLI/Sort.h
+	"Arme.h"
+
+1391301692 source:/home/nico/Programmation/RPG C++ CLI/main.cpp
+	"main.h"
+
+1391301789 /home/nico/Programmation/RPG C++ CLI/main.h
+	<iostream>
+	<cstdlib>
+	<ctime>
+	<ncurses.h>
+
+1390589254 source:/home/nico/Programmation/RPG C++ CLI/Objet.cpp
+	"Objet.h"
+
+1391301940 source:/home/nico/Programmation/RPG C++ CLI/Personnage.cpp
+	"Personnage.h"
+
+1390228262 source:/home/nico/Programmation/RPG C++ CLI/Sort.cpp
+	"Sort.h"
+
