@@ -15,6 +15,8 @@
 
 void initCurses();
 void afficherInfos();
+//Plus joli de les mettre ici
+//Plutot que dans main.cpp
 
 #endif // MAIN_H
 

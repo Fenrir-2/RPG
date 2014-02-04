@@ -1,36 +1,36 @@
 # depslib dependency file v1.0
-1391437020 source:p:\mes documents\codeblocks\programmation\rpg 2 [final test]\main.cpp
+1391506872 source:p:\mes documents\codeblocks\programmation\rpg 2 [final test]\main.cpp
 	"main.h"
 
 1143660866 
 
-1390589254 source:p:\mes documents\codeblocks\programmation\rpg 2 [final test]\objet.cpp
+1391506872 source:p:\mes documents\codeblocks\programmation\rpg 2 [final test]\objet.cpp
 	"Objet.h"
 
-1391436247 p:\mes documents\codeblocks\programmation\rpg 2 [final test]\objet.h
+1391506872 p:\mes documents\codeblocks\programmation\rpg 2 [final test]\objet.h
 	<cstdlib>
 	<ctime>
 	<curses.h>
 
-1391182196 source:p:\mes documents\codeblocks\programmation\rpg 2 [final test]\epee.cpp
+1391507252 source:p:\mes documents\codeblocks\programmation\rpg 2 [final test]\epee.cpp
 	"Epee.h"
 
-1391181930 source:p:\mes documents\codeblocks\programmation\rpg 2 [final test]\arme.cpp
+1391507252 source:p:\mes documents\codeblocks\programmation\rpg 2 [final test]\arme.cpp
 	"Arme.h"
 
-1391181446 p:\mes documents\codeblocks\programmation\rpg 2 [final test]\arme.h
+1391507252 p:\mes documents\codeblocks\programmation\rpg 2 [final test]\arme.h
 	"Objet.h"
 	<string>
 
 1391299878 p:\mes documents\codeblocks\programmation\rpg 2 [final test]\epee.h
 	"Arme.h"
 
-1391304558 source:p:\mes documents\codeblocks\programmation\rpg 2 [final test]\personnage.cpp
+1391437502 source:p:\mes documents\codeblocks\programmation\rpg 2 [final test]\personnage.cpp
 	"Personnage.h"
 
 1390832688 e.h"
 
-1391436337 p:\mes documents\codeblocks\programmation\rpg 2 [final test]\personnage.h
+1391507444 p:\mes documents\codeblocks\programmation\rpg 2 [final test]\personnage.h
 	<iostream>
 	<string>
 	<cstdlib>
@@ -38,7 +38,7 @@
 	<curses.h>
 	"Arme.h"
 
-1391436247 p:\mes documents\codeblocks\programmation\rpg 2 [final test]\main.h
+1391506872 p:\mes documents\codeblocks\programmation\rpg 2 [final test]\main.h
 	<iostream>
 	<cstdlib>
 	<ctime>
@@ -453,7 +453,8 @@
 	<stdio.h>
 	<wchar.h>
 
-1390478348 source:p:\mes documents\codeblocks\programmation\rpg 2 [final test]\jeu.cpp
+1391437502 source:p:\mes documents\codeblocks\programmation\rpg 2 [final test]\jeu.cpp
+	"Jeu.h"
 
 1391181930 source:/home/nico/Programmation/RPG C++ CLI/Arme.cpp
 	"Arme.h"
@@ -544,4 +545,10 @@
 1143664466 /home/nico/Programmation/RPG C++ CLI/pdc28_ming_w32/curspriv.h
 	<assert.h>
 	<dos.h>
+
+1391437502 p:\mes documents\codeblocks\programmation\rpg 2 [final test]\jeu.h
+	"curses.h"
+	"GuerrierLeger.h"
+	"GuerrierLourd.h"
+	"Magicien.h"
 

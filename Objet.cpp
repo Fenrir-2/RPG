@@ -5,6 +5,8 @@ Objet::Objet()
     m_poids = 0;
     m_numeroIndex = 0;
     m_placesPrises = 0;
+
+    //Cet classe ne doit jamais etre instancie mais bon...
 }
 
 int Objet::nombreAleatoire(int max, int min)
