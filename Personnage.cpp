@@ -61,8 +61,6 @@ int Personnage::nombreAleatoire(int max, int min)
     }
     //Ce if évite de se planter dans les paramètres.
 
-    //srand(time(NULL));
-
     int nombreRenvoye = (rand() % (max - min + 1)) + min;
 
     return nombreRenvoye;

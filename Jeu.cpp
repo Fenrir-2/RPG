@@ -3,7 +3,6 @@
 Jeu::Jeu()
 {
     joueur1 = menu();
-
     joueur2 = menu();
 
     joueur1->afficherInfos();
@@ -28,11 +27,13 @@ Personnage* Jeu::menu()
     int retour = 1;
     int appuiFleches = 0;
 
-    int ch = getch();
+    int ch = 0;
 
     do
     {
-        if(ch == KEY_DOWN)
+        ch = getch();
+
+        if(ch == 0x102) //Key_down
         {
 
             if(appuiFleches == 2)
@@ -79,7 +80,7 @@ Personnage* Jeu::menu()
 
         }
 
-        else if(ch == KEY_UP)
+        else if(ch == 0x103) //Key_up
         {
 
 
@@ -126,9 +127,9 @@ Personnage* Jeu::menu()
                 appuiFleches--;
         }
 
-        ch = getch();
+        //ch = getch();
 
-    }while(ch != 'e');
+    }while(ch != 0x65); //0x65 -> ASCII Code for e (code is 65, just append 0x)
 
     if(retour == 1)
         return new GuerrierLeger;
@@ -136,6 +137,6 @@ Personnage* Jeu::menu()
     else if(retour == 2)
         return new GuerrierLourd;
 
-    else if(retour == 2)
+    else if(retour == 3)
         return new Magicien;
 }
