@@ -1,18 +1,8 @@
 #ifndef OBJET_H
 #define OBJET_H
 
-/*
-******************************************
-*                                        *
-*   Ne JAMAIS instancier cette classe    *
-*                                        *
-******************************************
-*/
-
 #include <cstdlib>
 #include <ctime>
-//Utile pour la fonction nombreAleatoire(int, int)
-
 #include <curses.h>
 
 class Objet
@@ -26,6 +16,8 @@ class Objet
         int m_numeroIndex;
 
         int nombreAleatoire(int, int);
+    private:
+
 
 }; //<- Never forget this crap!
 

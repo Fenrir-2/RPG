@@ -2,8 +2,6 @@
 #define MAIN_H
 
 #include <iostream>
-#include <cstdlib>
-#include <ctime>
 #include <curses.h>
 
 #define MAJOR_VERSION 0
@@ -15,8 +13,6 @@
 
 void initCurses();
 void afficherInfos();
-//Plus joli de les mettre ici
-//Plutot que dans main.cpp
 
 #endif // MAIN_H
 

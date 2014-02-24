@@ -29,6 +29,7 @@
 			</Target>
 		</Build>
 		<Compiler>
+			<Add option="-march=core2" />
 			<Add option="-Wall" />
 			<Add directory="pdc34dllw" />
 		</Compiler>
@@ -57,6 +58,14 @@
 		<Unit filename="Sort.h" />
 		<Unit filename="main.cpp" />
 		<Unit filename="main.h" />
+		<Unit filename="resource Debug.rc">
+			<Option compilerVar="WINDRES" />
+			<Option target="Debug" />
+		</Unit>
+		<Unit filename="resource Release.rc">
+			<Option compilerVar="WINDRES" />
+			<Option target="Release" />
+		</Unit>
 		<Extensions>
 			<code_completion />
 			<debugger />

@@ -3,9 +3,8 @@
 Arme::Arme() : Objet()
 {
     m_degats = 0;
-    m_nom = attribuerNom();
+    //m_nom = attribuerNom();
 }
-//Cette classe ne doit JAMAIS etre instancie
 
 
 std::string Arme::attribuerNom()
@@ -45,20 +44,14 @@ std::string Arme::attribuerNom()
 
     return retourNom;
 }
-//Aise a comprendre
 
 void Arme::afficherInfos()
 {
     printw("Nom : %s \n", m_nom.c_str());
     printw("Degats : %d \n", m_degats);
-    refresh();
-    //^
-    //|
-    //Never forget this crap!
 }
 
 int Arme::getDegats()
 {
     return m_degats;
 }
-//Serieux? Besoin d'expliquer ca?

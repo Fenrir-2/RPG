@@ -2,30 +2,53 @@
 
 Personnage::Personnage()
 {
-    m_nom = demanderNom();
+    m_nom = attribuerNom();
     m_vie = 0;
     m_mana = 0;
     m_bloquer = false;
-
 }
 
 void Personnage::afficherInfos()
 {
     printw("Nom: %s\n", m_nom.c_str());
     printw("Vie: %d\n",  m_vie);
-
+    refresh(); //<- Never forget that fuckin' shit!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 }
 
-std::string Personnage::demanderNom()
+std::string Personnage::attribuerNom()
 {
-    system("cls");
-    std::string nomEntre;
-    printw("Entrez le nom du joueur: \n");
-    refresh();
-    std::getline(std::cin, nomEntre);
-    system("cls");
+    std::string nomPerso = "";
 
-    return nomEntre;
+    int retourNom = nombreAleatoire(5,1);
+
+    switch(retourNom)
+    {
+        case 1:
+            nomPerso = "Alduin";
+        break;
+
+        case 2:
+            nomPerso = "Dovahkiin";
+        break;
+
+        case 3:
+            nomPerso = "Proud Blacknight";
+        break;
+
+        case 4:
+            nomPerso = "Volgarr";
+        break;
+
+        case 5:
+            nomPerso = "Coward Faggot";
+        break;
+
+        default:
+            nomPerso = "Failure during name attribution";
+        break;
+    }
+
+    return nomPerso;
 }
 
 int Personnage::nombreAleatoire(int max, int min)

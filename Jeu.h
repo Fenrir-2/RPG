@@ -1,26 +1,26 @@
-#ifndef JEU_H
-#define JEU_H
+#ifndef  JEU_H
+#define  JEU_H
 
-#include "curses.h"
 #include "GuerrierLeger.h"
 #include "GuerrierLourd.h"
 #include "Magicien.h"
+#include <curses.h>
 
-class GuerrierLeger;    //Forward Declarations -> Obligatoire
+class GuerrierLeger;
 class GuerrierLourd;
-class Magicien;
-
+class Mage;
 
 class Jeu
 {
+
     public:
         Jeu();
+        Personnage* menu();
 
 
     private:
         Personnage* joueur1;
         Personnage* joueur2;
-
 };
 
 #endif // JEU_H

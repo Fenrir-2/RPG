@@ -1,6 +1,0 @@
-#include "Magicien.h"
-
-Magicien::Magicien() : Personnage()
-{
-    m_vie = nombreAleatoire(110, 90);
-}

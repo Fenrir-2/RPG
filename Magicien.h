@@ -13,6 +13,8 @@ class Magicien : public Personnage
         int m_mana;
         Sort* m_sort;
 
+        void afficherInfos();
+
     private:
 
 

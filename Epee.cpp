@@ -7,7 +7,6 @@ Epee::Epee()
 
     m_maxDegtFourni = 0;
     m_minDegtFourni = 0;
-    //Ces 2 int servent pour reinit les stats
 
     //m_nom deja initialise
 }
@@ -32,14 +31,9 @@ Epee::Epee(int maxDegats, int minDegats)
 
 bool Epee::reinit()
 {
-    if(m_maxDegtFourni > 0 && m_minDegtFourni > 0)
+    if(m_maxDegtFourni >= 0 && m_minDegtFourni >= 0)
     {
             m_degats = nombreAleatoire(m_maxDegtFourni, m_minDegtFourni);
-    }
-
-    else
-    {
-        m_degats = nombreAleatoire(100, 1);
     }
 
     m_poids = nombreAleatoire(15, 5);

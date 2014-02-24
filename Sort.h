@@ -10,6 +10,7 @@ class Sort : public Arme
         Sort(int, int);
 
     protected:
+        void afficherInfos();
 
     private:
         std::string attribuerNom();
